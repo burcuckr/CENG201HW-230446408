@@ -20,7 +20,7 @@ public class Test {
 
         newList.findPatient(4); //This sentence calls findPatient method and find patient using id.
 
-        newList.printList(); //This sencence prints calls informations.
+        newList.printList(); //This sencence prints calls all information.
 
     }
 }
