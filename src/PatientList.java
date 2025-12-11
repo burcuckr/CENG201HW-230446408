@@ -1,29 +1,29 @@
 public class PatientList {
-    Node head;
+    Node head; //I created head for first variable for the linked list.
 
-    public void addPatient(Patient p) {
+    public void addPatient(Patient p) { //This metods adds patients in the linked lists. This methods add patitent end of the list.
         Node newNode = new Node(p);
-        if (head == null) {
+        if (head == null) { //If the linked list is empty the methods add new patient in the head of the linked list.
             head = newNode;
             return;
         }
         Node current = head;
-        while(current.next != null){
+        while(current.next != null){ //This parts runs end of the list.
             current = current.next;
         }
         current.next = newNode;
     }
 
-    public void removePatient(int id){
-        if(head == null){
+    public void removePatient(int id){ //This method remove elements in the linked lists thanks to id.
+        if(head == null){ //If the list empty runs this part.
             return;
         }
-        if(head.data.id == id){
-            head = head.next;
+        if(head.data.id == id){ //if we want to remove first element runs this part.
+            head = head.next; // This statement make second elements to head and remove first.
             return;
         }
-        Node current = head;
-        while(current.next != null){
+        Node current = head; //Create current and its equals to head (first element)
+        while(current.next != null){ //This loops runs for this equations true.
             if(current.next.data.id == id){
                 current.next = current.next.next;
                 return;
@@ -33,27 +33,27 @@ public class PatientList {
 
     }
 
-    public Patient findPatient(int id){
-        Node current = head;
+    public Patient findPatient(int id){ //This methods find patient using patient's id.
+        Node current = head; //create current and equals head.
         while(current != null){
             if(current.data.id == id) {
-                System.out.println("This id is found. Patient informations are: " + current.data.name + ", " + current.data.age + " ," + current.data.severity);
+                System.out.println("This id is found. Patient informations are: " + current.data.name + ", " + current.data.age + ", " + current.data.severity);
                 return current.data;
             }
             current = current.next;
         }
-        System.out.println("This id is not found.");
+        System.out.println("This id is not found."); //If this patient not found this statement prints This id is not found. message.
         return null;
     }
-    public void printList(){
+    public void printList(){ //This statements prints all informations about patients.
         Node current = head;
 
-        if(current == null) {
+        if(current == null) { //if list is empty this parts run.
             System.out.println("The list is empty.");
             return;
         }
 
-        while(current != null){
+        while(current != null){ //If this list is not empty run this statement.
             System.out.println("Patient Id: " + current.data.id + " Patient name: " + current.data.name + " Patient severity: " +current.data.severity + " Patient age: " + current.data.age);
             current = current.next;
         }
