@@ -2,7 +2,7 @@ public class Test {
     public static void main(String[] args){
         PatientList newList = new PatientList(); //I created new patient list.
 
-        //In this paragraph I created patients and their informations, In this parts constuructors called.
+        //In this paragraph I created patients and their all information, In this parts constuructors called.
         Patient person1 = new Patient(1, "Arda Mutlu", 5, 19);
         Patient person2 = new Patient(2, "Sevgi Günaytürk", 9, 25);
         Patient person3 = new Patient(3, "Açelya Demir", 10, 29);

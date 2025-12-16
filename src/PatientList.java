@@ -45,7 +45,7 @@ public class PatientList {
         System.out.println("This id is not found."); //If this patient not found this statement prints This id is not found. message.
         return null;
     }
-    public void printList(){ //This statements prints all informations about patients.
+    public void printList(){ //This statements prints all information about patients.
         Node current = head;
 
         if(current == null) { //if list is empty this parts run.

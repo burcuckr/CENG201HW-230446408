@@ -1,0 +1,9 @@
+In this code, firstly I created Node class in this class I created data and next then I created patient class in this class I wrote some variables id, name, severity
+after that I created constructor in this class. Then I created patientList class this class includes methods first method is addPatient method This methods creates new
+node and firstly check the list is empty or not? If empty head equals newNode then starts with first elements and at the end of adds last patient at the end of the list.
+Then, I created removePatient  method, this metod delete patient using patient's id. Firstly this method controlled the list empty or not if empty return empty list.
+If the list not empty this method controlled we want to delete first item or not, if not other condition is run find the element and delete. Then I created findPatient
+method. Users wrote patient id and this methods find lists includes this patient or not. Firstly method search patient's id if found prints patient information but
+if not found, prints This id is not found sentence. After that, I created printList method
+Final class is test class. I created test class and
+

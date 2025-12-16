@@ -1,0 +1,14 @@
+My Code Output;
+This id is found. Patient informations are: Işıl Ünal, 44, 2
+Patient Id: 1 Patient name: Arda Mutlu Patient severity: 5 Patient age: 19
+Patient Id: 2 Patient name: Sevgi Günaytürk Patient severity: 9 Patient age: 25
+Patient Id: 3 Patient name: Açelya Demir Patient severity: 10 Patient age: 29
+Patient Id: 4 Patient name: Işıl Ünal Patient severity: 2 Patient age: 44
+
+Time Complexity;
+
+-AddPatient: This method time complexity is O(n).Because while doing n operations if we have 5 patient while runs 5 times after this situation O(n). But we have 2 ways to
+write this method if we add the new patient at the begining in the list our Big O is O(1) but first patient to get treatement at the end and this is nonsensical.
+
+-RemovePatient: This method time complexity is O(n) because thaks to while loops this
+
