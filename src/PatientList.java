@@ -1,14 +1,14 @@
 public class PatientList {
     Node head; //I created head for first variable for the linked list.
 
-    public void addPatient(Patient p) { //This metods adds patients in the linked lists. This methods add patitent end of the list.
+    public void addPatient(Patient p) { //This metod adds patient in the linked lists. This methods add patitent to the end of the linked list.
         Node newNode = new Node(p);
         if (head == null) { //If the linked list is empty the methods add new patient in the head of the linked list.
             head = newNode;
             return;
         }
         Node current = head;
-        while(current.next != null){ //This parts runs end of the list.
+        while(current.next != null){ //This loop runs end of the list.
             current = current.next;
         }
         current.next = newNode;
