@@ -1,4 +1,4 @@
-public class Test {
+public class Task1Test {
     public static void main(String[] args){
         PatientList newList = new PatientList(); //I created new patient list.
 
@@ -9,12 +9,15 @@ public class Test {
         Patient person4 = new Patient(4, "Işıl Ünal", 2, 44);
         Patient person5 = new Patient(5, "Cengiz Işıldayan", 8, 23);
 
+
         //Add patients in the linked lists.
         newList.addPatient(person1);
         newList.addPatient(person2);
         newList.addPatient(person3);
         newList.addPatient(person4);
         newList.addPatient(person5);
+
+        newList.printList(); //before deleting
 
         newList.removePatient(5); //This sentence calls removePatient method and remove patient using id.
 
