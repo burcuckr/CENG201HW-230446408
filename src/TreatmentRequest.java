@@ -15,4 +15,7 @@ public class TreatmentRequest {
         return arrivalTime;
     }
     //I did not use setArrivalTime method becuse of FIFO.
+    public String toString() {
+        return "Patient ID: " + patientId + ", Arrival Time: " + arrivalTime;
+    }
 }
