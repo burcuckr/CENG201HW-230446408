@@ -18,7 +18,7 @@ public class Task2Test {
         System.out.println(treatmentRequests.dequeue());
         System.out.println(treatmentRequests.dequeue());
         System.out.println(treatmentRequests.dequeue());
-
+        System.out.println("Final list; ");
         treatmentRequests.printQueue();
     }
 }
