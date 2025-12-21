@@ -45,7 +45,11 @@ public class TreatmentQueue {
         return size;
     }
 
-    public void printQueue() { //prints all queue.
+    public void printQueue() {//prints all queue.
+        if (isEmpty()) {
+            System.out.println("Queue is empty.");
+            return;
+        }
         TreatmentNode current = front;
         while (current != null) {
             System.out.println(current.data);
