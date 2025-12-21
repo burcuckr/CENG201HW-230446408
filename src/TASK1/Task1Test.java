@@ -25,7 +25,7 @@ public class Task1Test {
 
         newList.findPatient(4); //This sentence calls findPatient method and find patient using id.
 
-        newList.printList(); //This sencence prints calls all information.
+        newList.printList(); //This sentence prints calls all information.
 
     }
 }
