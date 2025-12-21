@@ -1,3 +1,5 @@
+package TASK2;
+
 public class TreatmentNode {
     TreatmentRequest data;
     TreatmentNode next;

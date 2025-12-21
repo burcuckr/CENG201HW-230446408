@@ -1,3 +1,5 @@
+package TASK2;
+
 public class TreatmentRequest {
     private int patientId;
     private long arrivalTime;
@@ -16,6 +18,6 @@ public class TreatmentRequest {
     }
     //I did not use setArrivalTime method becuse of FIFO.
     public String toString() {
-        return "Patient ID: " + patientId + ", Arrival Time: " + arrivalTime;
+        return "TASK1.Patient ID: " + patientId + ", Arrival Time: " + arrivalTime;
     }
 }

@@ -1,3 +1,5 @@
+package TASK2;
+
 public class TreatmentQueue {
     TreatmentNode front; //head , first
     TreatmentNode rear; //tail, back

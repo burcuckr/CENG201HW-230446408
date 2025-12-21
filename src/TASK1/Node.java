@@ -1,3 +1,5 @@
+package TASK1;
+
 public class Node {
     Patient data;
     Node next;

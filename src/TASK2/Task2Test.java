@@ -1,6 +1,8 @@
+package TASK2;
+
 public class Task2Test {
     public static void main(String[] args){
-        TreatmentQueue  treatmentRequests = new TreatmentQueue();
+        TreatmentQueue treatmentRequests = new TreatmentQueue();
 
         treatmentRequests.enqueue(new TreatmentRequest(1));
         treatmentRequests.enqueue(new TreatmentRequest(2));

@@ -1,3 +1,5 @@
+package TASK1;
+
 public class PatientList {
     Node head; //I created head for first variable for the linked list.
 
@@ -37,7 +39,7 @@ public class PatientList {
         Node current = head; //create current and equals head.
         while(current != null){
             if(current.data.id == id) {
-                System.out.println("This id is found. Patient informations are: " + current.data.name + ", " + current.data.age + ", " + current.data.severity);
+                System.out.println("This id is found. TASK1.Patient informations are: " + current.data.name + ", " + current.data.age + ", " + current.data.severity);
                 return current.data;
             }
             current = current.next;
@@ -54,7 +56,7 @@ public class PatientList {
         }
 
         while(current != null){ //If this list is not empty run this statement.
-            System.out.println("Patient Id: " + current.data.id + " Patient name: " + current.data.name + " Patient severity: " +current.data.severity + " Patient age: " + current.data.age);
+            System.out.println("TASK1.Patient Id: " + current.data.id + " TASK1.Patient name: " + current.data.name + " TASK1.Patient severity: " +current.data.severity + " TASK1.Patient age: " + current.data.age);
             current = current.next;
         }
     }

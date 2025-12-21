@@ -1,3 +1,5 @@
+package TASK1;
+
 public class Task1Test {
     public static void main(String[] args){
         PatientList newList = new PatientList(); //I created new patient list.
