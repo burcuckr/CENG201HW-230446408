@@ -13,7 +13,7 @@ public class Task3Test {
 
         newRecord.pop();//delete head.
         newRecord.pop();
-
+        System.out.println("After deleting; ");
         newRecord.printStack();
     }
 }
