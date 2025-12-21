@@ -1,27 +1,46 @@
-TEST 1 ANALYSIS BURCU ZEYNEP ÇAKAR 230446408
+TEST 1 ANALYSIS                                                          BURCU ZEYNEP ÇAKAR
+                                                                                                                                230446408
 
 My Code Output;
 
-Patient Id: 1 Patient name: Arda Mutlu Patient severity: 5 Patient age: 19 Patient Id: 2 Patient name: Sevgi Günaytürk Patient severity: 9 Patient age: 25 Patient Id: 3 Patient name: Açelya Demir Patient severity: 10 Patient age: 29 Patient Id: 4 Patient name: Işıl Ünal Patient severity: 2 Patient age: 44 Patient Id: 5 Patient name: Cengiz Işıldayan Patient severity: 8 Patient age: 23 This id is found. Patient informations are: Işıl Ünal, 44, 2 Patient Id: 1 Patient name: Arda Mutlu Patient severity: 5 Patient age: 19 Patient Id: 2 Patient name: Sevgi Günaytürk Patient severity: 9 Patient age: 25 Patient Id: 3 Patient name: Açelya Demir Patient severity: 10 Patient age: 29 Patient Id: 4 Patient name: Işıl Ünal Patient severity: 2 Patient age: 44
+Patient Id: 1 Patient name: Arda Mutlu Patient severity: 5 Patient age: 19
+Patient Id: 2 Patient name: Sevgi Günaytürk Patient severity: 9 Patient age: 25
+Patient Id: 3 Patient name: Açelya Demir Patient severity: 10 Patient age: 29
+Patient Id: 4 Patient name: Işıl Ünal Patient severity: 2 Patient age: 44
+Patient Id: 5 Patient name: Cengiz Işıldayan Patient severity: 8 Patient age: 23
+This id is found. Patient informations are: Işıl Ünal, 44, 2
+Patient Id: 1 Patient name: Arda Mutlu Patient severity: 5 Patient age: 19
+Patient Id: 2 Patient name: Sevgi Günaytürk Patient severity: 9 Patient age: 25
+Patient Id: 3 Patient name: Açelya Demir Patient severity: 10 Patient age: 29
+Patient Id: 4 Patient name: Işıl Ünal Patient severity: 2 Patient age: 44
 
-Time Complexity; -AddPatient: This method time complexity is O(n).Because while doing n operations if we have 5 patient while runs 5 times after this situation O(n). But we have 2 ways to write this method if we add the new patient at the begining in the list our Big O is O(1) but first patient to get treatement at the end and this is nonsensical.(FIFO)
 
--RemovePatient: This method time complexity is O(n) because in this method iterate through the entire traversal using a while loop.
+Time Complexity; 
+-AddPatient: This method time complexity is O(n).Becausewe don’t have tail. Also while doing n operations if we have 5 patient while runs 5 times after this situation O(n). But we have 2 ways to write this method if we add the new patient at the begining in the list our Big O is O(1) but first patient to get treatement at the end and this is nonsensical. 
 
--FindPatient: Again our time complexity is O(n) becuse this method iterate through the entire traversal using a while loop. If we have 100 patient and method seach id 100 this methods runs 100 times and finally find another example is we search id 40 and loop runs 40 times. Our complexity is O(n).
+-RemovePatient: This method time complexity is O(n) because in this method iterate through the entire traversal using a while loop. (worst case O(n))
 
--PrintList: Time complexity is O(n). Because if we have 50 patients this code prints 50 times. If we have n patients this code prints n times.
+-FindPatient: Again our time complexity is O(n) becuse this method iterate through the entire traversal using a while loop. If we have 100 patient and method seach id 100 this methods runs 100 times and finally find another example is we search id 40 and loop runs 40 times. Our complexity is O(n). 
 
-Our all codes depends on number of patient also all methods time complexity is O(n).
-Linked List Performance vs Array List Performance
+-PrintList: Time complexity is O(n). Because if we have 50 patients this code prints 50 times. If we have n patients this code prints n times. 
 
-If we want to add the item at the begining of the list we can use linkend list becaues it’s time complexity is O(1). Its very fast beause only change pointer. But int the array list time complexity is O(n) becuse we can all elements shifting.
++ Our all codes depends on number of patient also all methods time complexity is O(n). 
 
-Normal times Linked list at the end of the list some item time complexity is O(1) but my code don’t have tail and my code method time complexity is O(n). In the array list O(1) because we know length and index.
+Linked List Performance vs Array List Performance 
 
-In the linked list removeing an element method complextiy is O(n) because starting the head and methods search id all patients. In the array list also O(n) because of shifting.
+1.	If we want to add the item at the begining of the list we can use linkend list becaues it’s time complexity is O(1). Its very fast beause only change pointer. But int the array list time complexity is O(n) becuse we can all elements shifting.
+
+
+2.	 If the list has a tail its time complexity is O(1) but my code don’t have tail and my code method time complexity is O(n). In the array list O(1) because we know length and index. 
+
+3.	In the linked list removeing an element method complextiy is O(n) because starting the head and methods search id all patients. In the array list also O(n) because of shifting.
+
+
+
+
 
 TASK 2 REPORT
+
 TASK2 Output
 Patient ID: 1, Arrival Time: 1766311506064
 Patient ID: 2, Arrival Time: 1766311506065
