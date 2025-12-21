@@ -1,8 +1,8 @@
 package TASK2;
 
 public class TreatmentRequest {
-    private int patientId;
-    private long arrivalTime;
+    int patientId;
+    long arrivalTime;
 
     public TreatmentRequest(int patientId){ //constructor
         this.patientId = patientId;
@@ -18,6 +18,6 @@ public class TreatmentRequest {
     }
     //I did not use setArrivalTime method becuse of FIFO.
     public String toString() {
-        return "TASK1.Patient ID: " + patientId + ", Arrival Time: " + arrivalTime;
+        return "Patient ID: " + patientId + ", Arrival Time: " + arrivalTime;
     }
 }
