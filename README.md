@@ -20,3 +20,30 @@ If we want to add the item at the begining of the list we can use linkend list b
 Normal times Linked list at the end of the list some item time complexity is O(1) but my code don’t have tail and my code method time complexity is O(n). In the array list O(1) because we know length and index.
 
 In the linked list removeing an element method complextiy is O(n) because starting the head and methods search id all patients. In the array list also O(n) because of shifting.
+
+TASK 2 REPORT
+TASK2 Output
+Patient ID: 1, Arrival Time: 1766311506064
+Patient ID: 2, Arrival Time: 1766311506065
+Patient ID: 3, Arrival Time: 1766311506065
+Patient ID: 4, Arrival Time: 1766311506065
+Patient ID: 5, Arrival Time: 1766311506065
+Patient ID: 6, Arrival Time: 1766311506065
+Patient ID: 7, Arrival Time: 1766311506065
+Patient ID: 8, Arrival Time: 1766311506065
+Patient ID: 1, Arrival Time: 1766311506064
+Patient ID: 2, Arrival Time: 1766311506065
+Patient ID: 3, Arrival Time: 1766311506065
+Patient ID: 4, Arrival Time: 1766311506065
+Patient ID: 5, Arrival Time: 1766311506065
+Patient ID: 6, Arrival Time: 1766311506065
+Patient ID: 7, Arrival Time: 1766311506065
+Patient ID: 8, Arrival Time: 1766311506065
+Analysis Questions
+1.	Because of queues works with FIFO principle. This means first in first out. The first patient to arrive is treated first, and the last patient is treated last. The system Works true thaks to queues and FIFO principle.
+2.	If we use stacks for this situation which works with LIFO this is not logical first patients treated last, and last patient treatment first and this is not logical.
+For queue time complextiy is;
+Enqueue O(1), dequeue O(1)
+For stacks time complexity is;
+Push() O(1), pop() O(1)
+İf we use stacks for using this Project our time complexity is not change but logically very different because of Queue Works with FIFO and stacks Works with LIFO. 
