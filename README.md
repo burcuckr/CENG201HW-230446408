@@ -40,24 +40,24 @@ Linked List Performance vs Array List Performance
 
 
 TASK 2 REPORT
-
 TASK2 Output
-Patient ID: 1, Arrival Time: 1766311506064
-Patient ID: 2, Arrival Time: 1766311506065
-Patient ID: 3, Arrival Time: 1766311506065
-Patient ID: 4, Arrival Time: 1766311506065
-Patient ID: 5, Arrival Time: 1766311506065
-Patient ID: 6, Arrival Time: 1766311506065
-Patient ID: 7, Arrival Time: 1766311506065
-Patient ID: 8, Arrival Time: 1766311506065
-Patient ID: 1, Arrival Time: 1766311506064
-Patient ID: 2, Arrival Time: 1766311506065
-Patient ID: 3, Arrival Time: 1766311506065
-Patient ID: 4, Arrival Time: 1766311506065
-Patient ID: 5, Arrival Time: 1766311506065
-Patient ID: 6, Arrival Time: 1766311506065
-Patient ID: 7, Arrival Time: 1766311506065
-Patient ID: 8, Arrival Time: 1766311506065
+Patient ID: 1, Arrival Time: 1766329772027
+Patient ID: 2, Arrival Time: 1766329772033
+Patient ID: 3, Arrival Time: 1766329772033
+Patient ID: 4, Arrival Time: 1766329772033
+Patient ID: 5, Arrival Time: 1766329772033
+Patient ID: 6, Arrival Time: 1766329772033
+Patient ID: 7, Arrival Time: 1766329772033
+Patient ID: 8, Arrival Time: 1766329772033
+Patient ID: 1, Arrival Time: 1766329772027
+Patient ID: 2, Arrival Time: 1766329772033
+Patient ID: 3, Arrival Time: 1766329772033
+Final list; 
+Patient ID: 4, Arrival Time: 1766329772033
+Patient ID: 5, Arrival Time: 1766329772033
+Patient ID: 6, Arrival Time: 1766329772033
+Patient ID: 7, Arrival Time: 1766329772033
+Patient ID: 8, Arrival Time: 1766329772033
 Analysis Questions
 1.	Because of queues works with FIFO principle. This means first in first out. The first patient to arrive is treated first, and the last patient is treated last. The system Works true thaks to queues and FIFO principle.
 2.	If we use stacks for this situation which works with LIFO this is not logical first patients treated last, and last patient treatment first and this is not logical.
@@ -65,4 +65,5 @@ For queue time complextiy is;
 Enqueue O(1), dequeue O(1)
 For stacks time complexity is;
 Push() O(1), pop() O(1)
-İf we use stacks for using this Project our time complexity is not change but logically very different because of Queue Works with FIFO and stacks Works with LIFO. 
+İf we use stacks for using this Project our time complexity remains same but their working styles are very different. Becuse queue works with FIFO and stacks works with LIFO. 
+ 
