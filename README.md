@@ -66,4 +66,29 @@ Enqueue O(1), dequeue O(1)
 For stacks time complexity is;
 Push() O(1), pop() O(1)
 İf we use stacks for using this Project our time complexity remains same but their working styles are very different. Becuse queue works with FIFO and stacks works with LIFO. 
- 
+
+ TASK 3 ANALYSIS
+TASK3 Output
+Patient ID: 5, Discharge Time: 1766331182462
+Patient ID: 4, Discharge Time: 1766331182462
+Patient ID: 3, Discharge Time: 1766331182462
+Patient ID: 2, Discharge Time: 1766331182462
+Patient ID: 1, Discharge Time: 1766331182461
+After deleting; 
+Patient ID: 3, Discharge Time: 1766331182462
+Patient ID: 2, Discharge Time: 1766331182462
+Patient ID: 1, Discharge Time: 1766331182461
+
+Analysis Question
+
+1.	We use stacks because stacks works with LIFO(Last In First Out). In this task we make a report for showing discharged patients. LIFO is suitable for this part because last added record deleting first.
+2.	If we use a queue for this task, the system works with FIFO (First In First Out). Also first added records deleted first. This is not suitable for a discharge report list.
+ Stack time complexity;
+-	push() method time complexity is O(1) because it adds a new element to the top. If we have 100 elements, this methods doing operations in the top not others. 
+-	pop() method time complexity is O(1) beause it deletes only top element. Also this method not includes loops.
+-	peek() method time complexity is O(1) because this method don’t any operations only looks the top.
+-	printStack() method time complexity is O(n) beacuse it’s prints all elements in the stacks.
+Queue time complexity; (If I use queue for this task)
+-	enqueue() method time complexity is O(1) it has rear and easily doing operations.
+-	Dequeue() method time complexity is O(1) it has a front and easily doing deletion.
+
