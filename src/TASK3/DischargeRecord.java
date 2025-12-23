@@ -4,7 +4,7 @@ public class DischargeRecord {
     int patientId;
     long dischargeTime;
 
-    DischargeRecord(int patientId){ //constructor.
+    public DischargeRecord(int patientId){ //constructor.
         this.patientId= patientId;
         this.dischargeTime = System.currentTimeMillis();
     }

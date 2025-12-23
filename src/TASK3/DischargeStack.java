@@ -4,7 +4,7 @@ public class DischargeStack {
     DischargeNode top;
     int size;
 
-    DischargeStack(){ //parameterless constructor because of our stack is empty
+    public DischargeStack(){ //parameterless constructor because of our stack is empty
         this.top = null;
         this.size = 0;
     }

@@ -5,7 +5,7 @@ public class TreatmentQueue {
     TreatmentNode rear; //tail, back
     int size;
 
-    TreatmentQueue(){ //empty constructor.
+    public TreatmentQueue(){ //empty constructor.
         front = null;
         rear = null;
         size= 0;
@@ -27,7 +27,6 @@ public class TreatmentQueue {
     public TreatmentRequest dequeue(){ //removing an elements at the begining of the queue.
         //We do not use void because we want to get the patient from the queue.
         if(isEmpty()){ //it checks queue is empty or not.
-            System.out.println("No patient in the queue.");
             return null;
         }
         TreatmentRequest removed = front.data; // We store remove patient's data becuse we returned.

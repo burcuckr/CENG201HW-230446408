@@ -59,5 +59,27 @@ public class PatientList {
             System.out.println("Patient Id: " + current.data.id + " Patient name: " + current.data.name + " Patient severity: " +current.data.severity + " Patient age: " + current.data.age);
             current = current.next;
         }
+
+    }
+    public void insertionSortBySeverity() { //for task4 I choose insertion sort
+        Node sortedHead = null; //new sorted list's head
+        Node temp = head; //for traverse the unsorted list
+
+        while (temp != null) {
+            Node nextNode = temp.next;
+            if (sortedHead == null || temp.data.severity > sortedHead.data.severity) {
+                temp.next = sortedHead;
+                sortedHead = temp;
+            } else {
+                Node current = sortedHead;
+                while (current.next != null && current.next.data.severity >= temp.data.severity) {
+                    current = current.next;
+                }
+                temp.next = current.next;
+                current.next = temp;
+            }
+            temp = nextNode;
+        }
+        head = sortedHead; //update head.
     }
 }
